@@ -14,7 +14,7 @@ afterAll(async () => {
 
 test('Adding a movie', async () => {
     let movieBar = await driver.findElement(By.name('add-movie'))
-    await movieBar.sendKeys('Inception')
+    await movieBar.sendKeys('Annihilation')
     await driver.findElement(By.name('button')).click();
     await driver.sleep(500);
 
